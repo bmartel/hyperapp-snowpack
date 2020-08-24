@@ -1,0 +1,3 @@
+{
+  "extends": "@martel/hyperapp-scripts-snowpack/babel.config.json"
+}

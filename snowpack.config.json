@@ -1,0 +1,4 @@
+{
+  "extends": "@martel/hyperapp-scripts-snowpack",
+  "plugins": []
+}
