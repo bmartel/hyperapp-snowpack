@@ -1,4 +1,9 @@
 {
   "extends": "@martel/hyperapp-scripts-snowpack",
-  "plugins": []
+  "plugins": [
+    [
+      "@snowpack/plugin-build-script",
+      { "cmd": "postcss", "input": [".css"], "output": [".css"] }
+    ]
+  ]
 }
