@@ -3,7 +3,7 @@
 
 > ✨ Bootstrapped with Create Snowpack App (CSA).
 
-Created a new project with:
+Create a new project with:
 ```
 npx create-snowpack-app app-name --template @martel/hyperapp-snowpack
 ```
