@@ -1,7 +1,7 @@
 # New Hyperapp Project
+[![npm version](https://badge.fury.io/js/%40martel%2Fhyperapp-snowpack.svg)](https://badge.fury.io/js/%40martel%2Fhyperapp-snowpack)
 
 > ✨ Bootstrapped with Create Snowpack App (CSA).
-[![npm version](https://badge.fury.io/js/%40martel%2Fhyperapp-snowpack.svg)](https://badge.fury.io/js/%40martel%2Fhyperapp-snowpack)
 
 Created a new project with:
 ```
