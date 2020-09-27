@@ -2,6 +2,12 @@
   "extends": "@martel/hyperapp-scripts-snowpack",
   "plugins": [
     [
+      "@snowpack/plugin-optimize",
+      {
+        "preloadModules": true
+      }
+    ],
+    [
       "@snowpack/plugin-build-script",
       { "cmd": "postcss", "input": [".css"], "output": [".css"] }
     ]
