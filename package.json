@@ -1,6 +1,6 @@
 {
   "name": "@martel/hyperapp-snowpack",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "license": "MIT",
   "keywords": [
     "csa-template"
@@ -22,6 +22,7 @@
   "devDependencies": {
     "@martel/hyperapp-scripts-snowpack": "^0.1.1",
     "@snowpack/plugin-build-script": "^2.0.6",
+    "@snowpack/plugin-optimize": "^0.2.1",
     "autoprefixer": "^9.8.6",
     "cssnano": "^4.1.10",
     "jest": "^26.2.2",
