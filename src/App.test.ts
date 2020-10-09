@@ -1,4 +1,4 @@
-import { h, app } from 'hyperapp';
+import { app } from 'hyperapp';
 import App from './App';
 
 it('renders without crashing', () => {

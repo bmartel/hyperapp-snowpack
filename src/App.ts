@@ -1,4 +1,4 @@
-import { h, text } from 'hyperapp';
+import { text } from 'hyperapp';
 import { a, p, header, img, div, code } from '@hyperapp/html';
 import logo from './logo.svg';
 import './App.css';

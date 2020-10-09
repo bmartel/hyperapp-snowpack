@@ -1,5 +1,5 @@
 import { app } from 'hyperapp';
-import App from './App.js';
+import App from './App.ts';
 import './index.css';
 
 app({
