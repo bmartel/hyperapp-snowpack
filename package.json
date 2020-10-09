@@ -1,9 +1,12 @@
 {
   "name": "@martel/hyperapp-snowpack",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "license": "MIT",
   "keywords": [
-    "csa-template"
+    "csa-template",
+    "hyperapp",
+    "snowpack",
+    "typescript"
   ],
   "publishConfig": {
     "access": "public"
@@ -11,8 +14,8 @@
   "scripts": {
     "start": "snowpack dev",
     "build": "snowpack build",
-    "format": "prettier --write \"src/**/*.{js,jsx}\"",
-    "lint": "prettier --check \"src/**/*.{js,jsx}\"",
+    "format": "prettier --write \"src/**/*.{ts,js,jsx,tsx}\"",
+    "lint": "prettier --check \"src/**/*.{ts,js,jsx,tsx}\"",
     "test": "jest"
   },
   "dependencies": {
@@ -21,14 +24,15 @@
   },
   "devDependencies": {
     "@martel/hyperapp-scripts-snowpack": "^0.1.1",
-    "@snowpack/plugin-build-script": "^2.0.6",
-    "@snowpack/plugin-optimize": "^0.2.1",
-    "autoprefixer": "^9.8.6",
+    "@snowpack/plugin-build-script": "^2.0.8",
+    "@snowpack/plugin-optimize": "^0.2.3",
+    "autoprefixer": "^10.0.1",
     "cssnano": "^4.1.10",
-    "jest": "^26.2.2",
-    "postcss-cli": "^7.1.1",
-    "prettier": "^2.0.5",
-    "snowpack": "^2.9.0",
-    "tailwindcss": "^1.7.3"
+    "jest": "^26.5.2",
+    "postcss": "^8.1.1",
+    "postcss-cli": "^8.1.0",
+    "prettier": "^2.1.2",
+    "snowpack": "^2.13.3",
+    "tailwindcss": "^1.8.12"
   }
 }
