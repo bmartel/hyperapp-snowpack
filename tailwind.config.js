@@ -4,7 +4,13 @@ module.exports = {
     purgeLayersByDefault: true,
   },
   purge: {
-    content: ['./public/**/*.html', './src/**/*.js', './src/**/*.jsx'],
+    content: [
+      './public/**/*.html',
+      './src/**/*.js',
+      './src/**/*.jsx',
+      './src/**/*.ts',
+      './src/**/*.tsx',
+    ],
   },
   theme: {
     extend: {},
