@@ -1,6 +1,6 @@
 {
   "name": "@martel/hyperapp-snowpack",
-  "version": "0.1.10",
+  "version": "0.1.11",
   "license": "MIT",
   "keywords": [
     "csa-template",
@@ -12,8 +12,8 @@
     "access": "public"
   },
   "scripts": {
-    "start": "snowpack dev",
-    "build": "snowpack build",
+    "start": "snowpack dev --polyfill-node",
+    "build": "snowpack build --polyfill-node",
     "format": "prettier --write \"src/**/*.{ts,js,jsx,tsx}\"",
     "lint": "prettier --check \"src/**/*.{ts,js,jsx,tsx}\"",
     "test": "jest"
@@ -22,10 +22,8 @@
     "hyperapp": "^2.0.18"
   },
   "devDependencies": {
-    "@martel/hyperapp-scripts-snowpack": "^0.1.5",
+    "@martel/hyperapp-scripts-snowpack": "^0.1.6",
     "@snowpack/plugin-build-script": "^2.1.0",
-    "@snowpack/plugin-optimize": "^0.2.13",
-    "@testing-library/jest-dom": "^5.13.0",
     "autoprefixer": "^10.2.6",
     "cssnano": "^5.0.5",
     "jest": "^27.0.4",
