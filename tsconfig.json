@@ -1,4 +1,10 @@
 {
   "extends": "@martel/hyperapp-scripts-snowpack/ts.config.json",
-  "include": ["src/*"]
+  "include": ["src/*"],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  }
 }
